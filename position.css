@@ -1,0 +1,31 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.img1
+{
+    width: 300px;
+    border: 2px solid black;
+}
+.img1 :nth-child(2)
+{
+    width: 200px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    border-radius: 700px;
+}.img2
+{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.img2 :nth-child(2)
+{
+    width: 400px;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}

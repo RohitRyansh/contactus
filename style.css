@@ -1,0 +1,154 @@
+body
+{
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+h1
+{
+    font-size: 40px;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+}
+.f1:hover
+{
+    background-color: lightcoral;
+}
+.f1
+{
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.f2:hover
+{
+    background-color: lightcoral;
+}
+.f2
+{
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.f3:hover
+{
+    background-color: lightcoral;
+}
+.f3
+{
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.form
+{
+    padding-top: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    height: 60vh;
+    border-radius: 10px;   
+}
+.form1
+{
+    display: flex;
+    text-align: left;
+}
+.name
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    padding-left: 30px;
+    justify-content: left;
+    text-align: left;
+}
+.name input
+{
+    width: 180px;
+    height: 30px;
+    outline:lightcoral;
+    border-radius: 5px;
+}
+.name input:focus
+{
+    border: 2px solid lightcoral;
+}
+.nm
+{
+    padding-bottom: 10px;
+}
+.em
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.ph
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.message
+{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.message textarea{
+    margin-top: 5px;
+    border: none;
+    outline: lightcoral;
+    border-radius: 5px;
+}
+.message textarea:focus
+{
+    border: 2px solid lightcoral;
+}
+.service
+{
+    text-align: left;
+    padding-left: 30px;
+}
+.serv
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.service button
+{
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.service button:hover
+{
+    color: white;
+    background-color: gray;
+}
+.option button  {
+    margin-right: 30px;
+}
+.send button
+{
+    margin-top: 20px;
+    padding: 16px 32px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+}
+.send button:hover
+{
+    background-color: red;
+}
